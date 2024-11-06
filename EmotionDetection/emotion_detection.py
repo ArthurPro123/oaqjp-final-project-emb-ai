@@ -15,7 +15,7 @@ def emotion_detector(text_to_analyze):
     # Create a new dictionary to hold emotions,
     # the 'dominant_emotion' will be appended later
     # after finding out which value in the dictionary 
-    has the highest value
+    # has the highest value
     output_emotions = {
         'anger': emotions['anger'],
         'disgust': emotions['disgust'],
@@ -34,3 +34,5 @@ def emotion_detector(text_to_analyze):
     # Append the 'dominant_emotion' to the dictionary
     output_emotions['dominant_emotion'] = max_emotion_name
     return output_emotions
+
+
